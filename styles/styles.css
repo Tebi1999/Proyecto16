@@ -126,10 +126,6 @@ h2 {
     background-color: #0056b3;
   }
 
-  contenedor {
-    position: relative;
-    text-align: center;
-  }
   
   .contenedor {
     position: relative;
@@ -144,6 +140,7 @@ h2 {
     width: 80%; /* Ajustar el ancho al contenido */
     margin: 0 auto; /* Centrar horizontalmente */
     border-radius: 3px 30px;
+    background-color: white;
   }
   
   .etiqueta {
@@ -156,3 +153,32 @@ h2 {
     font-weight: bold; /* Negrita */
     z-index: 1; /* Hacer que esté por encima del borde */
   }
+
+/*Boton de Enviar pedido (pedido.html)*/
+ .Boton {    
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+}
+
+button {
+    font-size: large;
+    padding: 5px;
+    border-radius: 3px;
+    height: 10%;
+
+}
+
+h3{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%; /* Ajustar el ancho al contenido */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+body{
+    background: url(../img/Bg-image-alt2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}   
