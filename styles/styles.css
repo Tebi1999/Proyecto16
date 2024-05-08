@@ -17,7 +17,7 @@ header {
     text-align: center;
     font-family: Kalam;
     font-weight: 700;
-    
+        
 }
 
 footer {
@@ -141,6 +141,7 @@ h2 {
     margin: 0 auto; /* Centrar horizontalmente */
     border-radius: 3px 30px;
     background-color: white;
+    box-shadow: 5px 5px rgb(235, 233, 240);
   }
   
   .etiqueta {
@@ -166,6 +167,7 @@ button {
     padding: 5px;
     border-radius: 3px;
     height: 10%;
+    box-shadow: 5px 5px rgb(235, 233, 240);
 
 }
 
@@ -174,6 +176,7 @@ h3{
     justify-content: flex-start;
     width: 80%; /* Ajustar el ancho al contenido */
     margin: 0 auto; /* Centrar horizontalmente */
+    
 }
 
 body{
