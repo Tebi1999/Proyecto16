@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mar de Luna</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -13,23 +19,52 @@
                 <a href="./index.html"></a>
                 <img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca">
             </picture>
-           <ul class="menu">
+            <ul class="menu">
                 <li><a href="index.html">INICIO</a></li>
-                <li><a href="menudeldia.html">MENU DEL DIA</a></li>
                 <li><a href="entradas.html">ENTRADAS</a></li>
                 <li><a href="platos.html">PLATOS</a></li>
                 <li><a href="bebidas.html">BEBIDAS</a></li>
-           </ul>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
 
-        
+
         </nav>
-    </header> 
+    </header>
 
     <main>
+        <H2>POSTRES</H2>
+        <label class="postres">
+            <div>
+                <label>
+                    <img src="./img/Tiramisu-1.jpg" alt="Tiramisu">
+                    <span>Tiramisu</span>
+                    <input type="checkbox" name="tiramisu" value="1">
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <img src="./img/Higos-1.jpg" alt="Higos en almibar">
+                    <span>Higos en almibar</span>
+                    <input type="checkbox" name="higos" value="2">
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <img src="./img/Brownie-1.jpg" alt="Brownie">
+                    <span>Brownie con crema</span>
+                    <input type="checkbox" name="brownie" value="3">
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </div>
+        </label>
+        <a href="pedido.html" class="boton-flotante">Mi Pedido</a>
 
     </main>
-
-    <footer> Todos los derechos reservados etc etc</footer>
+    <br><br>
+    <footer> © Todos los derechos reservados al Grupo 16</footer>
 
 </body>
+
 </html>

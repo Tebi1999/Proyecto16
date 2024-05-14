@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mar de Luna</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,10 +19,10 @@
             </picture>
            <ul class="menu">
                 <li><a href="index.html">INICIO</a></li>           
-                <li><a href="menudeldia.html">MENU DEL DIA</a></li>
                 <li><a href="platos.html">PLATOS</a></li>
                 <li><a href="postres.html">POSTRES</a></li>
                 <li><a href="bebidas.html">BEBIDAS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
            </ul>
 
         
@@ -26,10 +30,37 @@
     </header> 
 
     <main>
-
+        <H2>ENTRADAS</H2>
+        <label class="entradas">
+            <div>
+                <label>
+                    <img src="./img/Brusquetas-1.jpg" alt="Brusquetas">
+                    <span>Brusquetas</span>
+                    <input type="checkbox" name="limonada" value="1">
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <img src="./img/Empanadas-1.jpg" alt="Empanadas">
+                    <span>Empanadas de mariscos</span>
+                    <input type="checkbox" name="Empanadas" value="2">
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <img src="./img/Ensalada-1.jpg" alt="Ensalada de mariscos">
+                    <span>Ensalada de mariscos</span>
+                    <input type="checkbox" name="ensalada" value="3">
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </div>
+        </label>
+        <a href="pedido.html" class="boton-flotante">Mi Pedido</a>
     </main>
+<br><br>
 
-    <footer> Todos los derechos reservados etc etc</footer>
-
+    <footer> © Todos los derechos reservados al Grupo 16</footer>
 </body>
 </html>
