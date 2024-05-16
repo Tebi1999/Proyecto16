@@ -13,11 +13,9 @@
 <body>
     <header>
         <nav>
-            <picture>
-                <a href="./index.html"></a>
-                <img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca">
-            </picture>
-           <ul class="menu">
+            <a href="./index.html"><img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca"></a>
+
+            <ul class="menu">
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="entradas.html">ENTRADAS</a></li>
                 <li><a href="postres.html">POSTRES</a></li>
@@ -31,32 +29,48 @@
 
     <main>
         <H2>PLATOS</H2>
-        <label class="platos">
-            <div>
+        <div class="platos">
+            <article>
+                <img src="./img/Langostinos-1.jpg" alt="Langostinos">
+                <h3>Langostinos con salsa de camarones</h3><br>
+                <p>Un plato exquisito de langostinos bañados en una salsa cremosa de camarones. Los langostinos jugosos se combinan con una salsa rica y suave, realzada con el sabor a mar de los camarones. Una delicia indulgente que deleitará los paladares más exigentes con su exquisita combinación de sabores marinos. </p><br>
                 <label>
-                    <img src="./img/Langostinos-1.jpg" alt="Langostinos">
-                    <span>Langostinos con salsa de camarones</span>
-                    <input type="checkbox" name="limonada" value="1">
+                    <input type="checkbox" name="langostinos" value="1">
+                    Seleccionar langostinos
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-            <div>
+            </article>
+            <article>
+                <img src="./img/Mejillones-1.jpg" alt="Mejillones">
+                <h3>Mejillones al ajillo</h3><br>
+                <p>Un plato vibrante de mejillones al ajillo, ofreciendo una explosión de sabores mediterráneos. Los mejillones frescos se cocinan en una salsa de ajo y aceite de oliva, impregnando cada bocado con su aroma y sabor intensos. Una experiencia culinaria irresistible que te transportará a las costas de España con cada mordisco.</p><br>
                 <label>
-                    <img src="./img/Mejillones-1.jpg" alt="Mejillones">
-                    <span>Mejillones al ajillo</span>
                     <input type="checkbox" name="mejillones" value="2">
-                    <input type="number" value="0" min="0" max="20">
+                    Seleccionar mejillones
                 </label>
-            </div>
-            <div>
                 <label>
-                    <img src="./img/Rabas-1.jpg" alt="Rabas">
-                    <span>Rabas rebozadas</span>
-                    <input type="checkbox" name="rabas" value="3">
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-        </label>
+            </article>
+            <article>
+                <img src="./img/Rabas-1.jpg" alt="Rabas">
+                <h3>Rabas rebozadas</h3><br>
+                <p>Deliciosas rabas rebozadas, crujientes por fuera y tiernas por dentro, acompañadas de una salsa de mostaza con un toque picante. El rebozado dorado resalta el sabor suave y jugoso de las rabas, mientras que la salsa de mostaza añade un toque audaz y delicioso. Un placer irresistible para los amantes de la cocina gourmet. </p><br>
+                <label>
+                    <input type="checkbox" name="rabas" value="3">
+                    Seleccionar rabas
+                </label>
+                <label>
+                    Cantidad:
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </article>
+        </div>
+        
         <a href="pedido.html" class="boton-flotante">Mi Pedido</a>
     </main>
 <br><br>

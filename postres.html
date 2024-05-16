@@ -15,10 +15,7 @@
 <body>
     <header>
         <nav>
-            <picture>
-                <a href="./index.html"></a>
-                <img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca">
-            </picture>
+            <a href="./index.html"><img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca"></a>
             <ul class="menu">
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="entradas.html">ENTRADAS</a></li>
@@ -33,32 +30,51 @@
 
     <main>
         <H2>POSTRES</H2>
-        <label class="postres">
-            <div>
+        <div class="postres">
+            <article>
+                <img src="./img/Tiramisu-1.jpg" alt="Tiramisu">
+                <h3>Tiramisu</h3><br>
+                <p>Un clásico italiano, indulgente y reconfortante. Capas de bizcochuelo empapados en café, alternadas con una
+                    mezcla cremosa de mascarpone, huevos y coronado con cacao en polvo.</p><br>
                 <label>
-                    <img src="./img/Tiramisu-1.jpg" alt="Tiramisu">
-                    <span>Tiramisu</span>
                     <input type="checkbox" name="tiramisu" value="1">
+                    Seleccionar tiramisu
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-            <div>
+            </article>
+            <article>
+                <img src="./img/Higos-1.jpg" alt="Higos en almíbar">
+                <h3>Higos en almíbar</h3><br>
+                <p> Higos en almíbar suave y aromático, que resalta su sabor natural y los hace aún más indulgentes. Perfectos como
+                    postre o acompañamiento.</p><br>
                 <label>
-                    <img src="./img/Higos-1.jpg" alt="Higos en almibar">
-                    <span>Higos en almibar</span>
-                    <input type="checkbox" name="higos" value="2">
+                    <input type="checkbox" name="higos_en_almibar" value="2">
+                    Seleccionar higos en almíbar
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-            <div>
+            </article>
+            <article>
+                <img src="./img/Brownie-1.jpg" alt="Brownie">
+                <h3>Brownie con crema</h3><br>
+                <p>Un tentador corazón de chocolate decadente y una textura densa y suave. Coronado con una generosa porción de
+                    helado de crema sobre el brownie tibio, creando una combinación perfecta. </p><br>
                 <label>
-                    <img src="./img/Brownie-1.jpg" alt="Brownie">
-                    <span>Brownie con crema</span>
                     <input type="checkbox" name="brownie" value="3">
+                    Seleccionar brownie
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-        </label>
+            </article>
+        </div>
+        
         <a href="pedido.html" class="boton-flotante">Mi Pedido</a>
 
     </main>

@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -13,54 +13,67 @@
 <body>
     <header>
         <nav>
-            <picture>
-                <a href="./index.html"></a>
-                <img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca">
-            </picture>
-           <ul class="menu">
+            <a href="./index.html"><img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca"></a>
+        
+            <ul class="menu">
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="entradas.html">ENTRADAS</a></li>
                 <li><a href="platos.html">PLATOS</a></li>
                 <li><a href="postres.html">POSTRES</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
-           </ul>
-           
+            </ul>
         
         </nav>
     </header> 
 
     <main>
         <H2>BEBIDAS</H2>
-
-        <label class="bebidas">
-            <div>
+    
+        <div class="bebidas">
+            <article>
+                <img src="./img/Limonada-1.jpg" alt="Limonada">
+                <h3>Jarra de limonada</h3><br>
+                <p>Jarra de limonada x 1lt. con menta y jengibre, ideal para acompañar mariscos. Equilibra la acidez del
+                    limón con la frescura de la menta y el toque picante del jengibre.</p><br>
                 <label>
-                    <img src="./img/Limonada-1.jpg" alt="Limonada">
-                    <span>Jarra de limonada</span>
-                    <p> Limonada con hojas de menta y gengibre</p>
                     <input type="checkbox" name="limonada" value="1">
-                    <input type="number" value="0" min="0" max="20">
+                    Seleccionar limonada
                 </label>
-            </div>
-            <div>
                 <label>
-                    <img src="./img/Vinoblanco-1.jpg" alt="Vino Blanco">
-                    <span>Vino Blanco</span>
-                    <p> Vino blanco Chenin Blanc botella de 3/4 lt.</p>
-                    <input type="checkbox" name="Vino Blanco" value="2">
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-            <div>
+        
+            </article>
+            <article>
+                <img src="./img/Vinoblanco-1.jpg" alt="Vino Blanco">
+                <h3>Vino Blanco</h3><br>
+                <p>Vino blanco Chenin Blanc botella de 3/4 lt. Fresco y afrutado, perfecto para mariscos. Su carácter ligero
+                    y notas cítricas realzan los sabores del mar. </p>
+                <label><br>
+                    <input type="checkbox" name="vino_blanco" value="2">
+                    Seleccionar vino blanco
+                </label>
                 <label>
-                    <img src="./img/Vinotinto-1.jpg" alt="Vino Tinto">
-                    <span>Vino Tinto</span>
-                    <p> Vino tinto Malbec botella de 3/4 lt.</p>
-                    <input type="checkbox" name="Vino Tinto" value="3">
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-        </label>
+            </article>
+            <article>
+                <img src="./img/Vinotinto-1.jpg" alt="Vino Tinto">
+                <h3>Vino Tinto</h3><br>
+                <p>Vino tinto Malbec botella de 3/4 lt., con su cuerpo medio y taninos suaves, ofrece un contraste audaz
+                    pero equilibrado que complementan los sabores del mar.</p>
+                <label><br>
+                    <input type="checkbox" name="vino_tinto" value="3">
+                    Seleccionar vino tinto
+                </label>
+                <label>
+                    Cantidad:
+                    <input type="number" value="0" min="0" max="20">
+                </label>
+            </article>
+        </div>
         <a href="pedido.html" class="boton-flotante">Mi Pedido</a>
     </main>
     

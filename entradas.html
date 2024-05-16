@@ -13,10 +13,9 @@
 <body>
     <header>
         <nav>
-            <picture>
-                <a href="./index.html"></a>
-                <img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca">
-            </picture>
+        
+           <a href="./index.html"><img src="./img/isologotipo-transparente.png" alt="Isologotipo de la marca"></a>
+           
            <ul class="menu">
                 <li><a href="index.html">INICIO</a></li>           
                 <li><a href="platos.html">PLATOS</a></li>
@@ -31,32 +30,48 @@
 
     <main>
         <H2>ENTRADAS</H2>
-        <label class="entradas">
-            <div>
+        <div class="entradas">
+            <article>
+                <img src="./img/Brusquetas-1.jpg" alt="Brusquetas">
+                <h3>Bruschettas</h3><br>
+                <p>Bruschettas con exquisita mezcla mediterránea de palta cremosa, queso crema suave, aceitunas negras jugosas y albahaca fresca. Una explosión de sabores y texturas en cada bocado, perfecta para abrir el apetito con un toque gourmet.</p><br>
                 <label>
-                    <img src="./img/Brusquetas-1.jpg" alt="Brusquetas">
-                    <span>Brusquetas</span>
-                    <input type="checkbox" name="limonada" value="1">
+                    <input type="checkbox" name="brusquetas" value="1">
+                    Seleccionar brusquetas
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-            <div>
+            </article>
+            <article>
+                <img src="./img/Empanadas-1.jpg" alt="Empanadas">
+                <h3>Empanadas de mariscos</h3><br>
+                <p>Empanadas de salmón, un festín marino en cada bocado. El jugoso salmón se combina con ingredientes selectos, envuelto en una masa dorada y crujiente. Un deleite para los amantes del pescado, ofreciendo un sabor ahumado y delicado en cada deliciosa mordida.</p><br>
                 <label>
-                    <img src="./img/Empanadas-1.jpg" alt="Empanadas">
-                    <span>Empanadas de mariscos</span>
-                    <input type="checkbox" name="Empanadas" value="2">
+                    <input type="checkbox" name="empanadas" value="2">
+                    Seleccionar empanadas
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-            <div>
+            </article>
+            <article>
+                <img src="./img/Ensalada-1.jpg" alt="Ensalada de mariscos">
+                <h3>Ensalada de mariscos</h3><br>
+                <p>Ensalada de mariscos y calamares, una fusión fresca del océano en tu plato. Los jugosos calamares se entrelazan con una variedad de mariscos, bañados en aderezo ligero y adornados con vegetales frescos.</p><br>
                 <label>
-                    <img src="./img/Ensalada-1.jpg" alt="Ensalada de mariscos">
-                    <span>Ensalada de mariscos</span>
-                    <input type="checkbox" name="ensalada" value="3">
+                    <input type="checkbox" name="ensalada_mariscos" value="3">
+                    Seleccionar ensalada de mariscos
+                </label>
+                <label>
+                    Cantidad:
                     <input type="number" value="0" min="0" max="20">
                 </label>
-            </div>
-        </label>
+            </article>
+        </div>
+        
         <a href="pedido.html" class="boton-flotante">Mi Pedido</a>
     </main>
 <br><br>
